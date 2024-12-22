@@ -7,7 +7,7 @@ from folium.plugins import MarkerCluster
 
 app = Flask(__name__)
 
-API_KEY = "cnPA2o0MVjDEqCLRjcmlNdVVZrwd1oKe"  # Укажите ваш ключ AccuWeather
+API_KEY = "cnPA2o0MVjDEqCLRjcmlNdVVZrwd1oKe"
 BASE_URL = "http://dataservice.accuweather.com/forecasts/v1/daily/"
 
 HTML_TEMPLATE = """
